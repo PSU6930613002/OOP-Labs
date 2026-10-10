@@ -16,4 +16,10 @@ public class ConstructionPayment extends Transaction{
             + " | Contructor: " + contructorName
             + " | Stage: " + paymentStage;
     }
+    public String getContructorName(){
+        return this.contructorName;
+    }
+    public String getPaymentStage(){
+        return this.paymentStage;
+    }
 }
